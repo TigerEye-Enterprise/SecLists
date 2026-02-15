@@ -1,11 +1,6 @@
-.changeset/lovely-needles-feel.md
-.changeset/forty-singers-slide.md
-.changeset/goofy-fans-bow.md
-.changeset/tangy-dingos-drive.md
 .changeset/config.json
-.changeset/spotty-rocks-itch.md
-.changeset/gold-friends-stare.md
-.changeset/safe-pens-draw.md
+.changeset/fix-graphql-groupby-collision.md
+.changeset/perky-lies-search.md
 .vscode/settings.json
 .vscode/extensions.json
 .stylelintrc.json
@@ -763,7 +758,9 @@ api/src/operations/json-web-token/index.ts
 api/src/mailer.ts
 api/src/deployment/index.ts
 api/src/deployment/deployment.ts
+api/src/deployment/drivers/netlify.test.ts
 api/src/deployment/drivers/vercel.ts
+api/src/deployment/drivers/netlify.ts
 api/src/deployment/drivers/vercel.test.ts
 api/src/deployment/drivers/index.ts
 api/src/utils/get-cache-key.test.ts
@@ -2116,6 +2113,7 @@ app/src/interfaces/input-block-editor/bus.ts
 app/src/interfaces/input-block-editor/use-file-handler.ts
 app/src/interfaces/input-block-editor/alignment.ts
 app/src/interfaces/input-block-editor/sanitize.test.ts
+app/src/interfaces/input-block-editor/input-block-editor.test.ts
 app/src/interfaces/select-color/select-color.test.ts
 app/src/interfaces/select-color/select-color.vue
 app/src/interfaces/select-color/index.ts
@@ -2316,6 +2314,7 @@ app/src/components/v-icon/custom-icons/logout.vue
 app/src/components/v-icon/custom-icons/box.vue
 app/src/components/v-icon/custom-icons/grid_3.vue
 app/src/components/v-icon/custom-icons/grid_2.vue
+app/src/components/v-icon/custom-icons/netlify.vue
 app/src/components/v-icon/custom-icons/grid_6.vue
 app/src/components/v-icon/custom-icons/directus.vue
 app/src/components/v-icon/custom-icons/folder_lock.vue
